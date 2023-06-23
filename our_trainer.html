@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--meta links-->
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<!-- Font Awesome CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<!--Custom style sheet links-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<div class="project_page">
+		<div class="our_trainer_mn">
+			<div class="container">
+				<div class="row">
+					<div class="enner_our_trainer_mn w-100">
+						<div class="our_trainer_heading">
+							<h2>OUR TRAINE<span>R</span></h2>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="our_trainer_details">
+						<div class="our_trainer_left_details">
+							<h4 class="mohamed_name_mn">Mohamed Ahmed</h4>
+							<p class="fitness_trainers_mn">Fitness Instructor</p>
+							<p class="trainer_details_mn">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+							<div class="social_media_mn">
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+								<a href="#"><i class="fab fa-youtube"></i></a>
+							</div>
+						</div>
+						<div class="our_trainer_right_details">
+							<div class="owl-carousel owl-theme">
+								<div class="item">
+									<div class="trainer_img_mn">
+										<img src="img/Trainer-1.jpg">
+									</div>
+								</div>
+								<div class="item">
+									<div class="trainer_img_mn">
+										<img src="img/Trainer-2.jpg">
+									</div>
+								</div>
+								<div class="item">
+									<div class="trainer_img_mn">
+										<img src="img/Trainer-3.jpg">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.owl-carousel').owlCarousel({
+				loop:true,
+				margin:15,
+				autoplay:true,
+				dots:false,
+				autoplayTimeout:4000,
+				autoplayHoverPause:true,
+				responsive: {
+					0: {
+						items: 1,
+						nav: true,
+					},
+					400: {
+						items: 1,
+						nav: true,
+					},
+					768: {
+						items: 2,
+						nav: true,
+					},
+					1000: {
+						items: 3,
+						nav: true,
+					}
+				}
+			})
+		})
+	</script>
+</body>

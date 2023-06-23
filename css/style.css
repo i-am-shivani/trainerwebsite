@@ -1,0 +1,320 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Raleway', sans-serif;
+}
+span , a , h1 , h2 , h3 , h4 , h5 , p , label , input , select , ul , li, div  {
+	margin:0;
+	padding:0;
+	font-family: 'Raleway', sans-serif;
+}
+i {
+	/*font-family: "Font Awesome 5 Brands";*/
+}
+body {
+	color: #fff;
+	background: #060606;
+	font-family: 'Raleway', sans-serif;
+}
+
+@font-face {
+	font-family: impact;
+	src: url(../font/impact.ttf);
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+
+
+.enner_our_trainer_mn , .timetable_mn {
+	margin: 40px 0;
+}
+.enner_our_trainer_mn .our_trainer_heading , .timetable_mn .enner_timetable_heading {
+	margin: 20px 0;
+	width: 100%;
+	text-align: center;
+}
+.enner_our_trainer_mn .our_trainer_heading h2 , .timetable_mn .enner_timetable_heading h2 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #ffffff;
+	font-family: impact;
+}
+.enner_our_trainer_mn .our_trainer_heading h2 span , .timetable_mn .enner_timetable_heading h2 span {
+	color: #EE1C25;
+	font-family: impact;
+}
+.enner_our_trainer_mn .our_trainer_heading p , .timetable_mn .enner_timetable_heading p {
+	width: 60%;
+	display: inline-block;
+	margin-top: 20px;
+	color: #B2B2B2;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.our_trainer_details {
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin: 60px 0;
+	position: relative;
+}
+.our_trainer_left_details , .our_trainer_right_details {
+	width: 50%;
+}
+.our_trainer_left_details {
+	padding-right: 80px;
+}
+.our_trainer_left_details h4 {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.our_trainer_left_details p.fitness_trainers_mn {
+	color: #383838;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.our_trainer_left_details p.trainer_details_mn {
+	display: inline-block;
+	color: #B2B2B2;
+	font-size: 14px;
+	line-height: 30px;
+}
+.our_trainer_mn {
+	position: relative;
+	overflow-x: hidden;
+}
+.our_trainer_right_details {
+	position: absolute;
+	right: -14%;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 60%;
+}
+.our_trainer_right_details .owl-carousel .owl-dots.disabled, .our_trainer_right_details .owl-carousel .owl-nav.disabled {
+	display: block;
+	margin: 0;
+}
+
+.our_trainer_right_details button.owl-prev , .our_trainer_right_details button.owl-next{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 40px !important;
+	height: 36px;
+	width: 36px;
+	background: #ED1B23 !important;
+	border-radius: 50px !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	cursor: pointer;
+	outline: none;
+}
+.our_trainer_right_details button.owl-prev:before, .our_trainer_right_details button.owl-next:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -7px;
+	transform: translateY(-50%);
+	font-size: 40px !important;
+	height: 50px;
+	width: 50px;
+	background: #ED1B23 !important;
+	border-radius: 50px !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	cursor: pointer;
+	outline: none;
+	z-index: -1;
+	opacity: 50%;
+}
+.our_trainer_right_details button.owl-prev span, .our_trainer_right_details button.owl-next span {
+	height: 72px;
+	color: #fff;
+	position: relative;
+}
+.our_trainer_right_details button.owl-prev {
+	left: -25px;
+}
+.our_trainer_right_details button.owl-next {
+	right: 200px;
+}
+.social_media_mn {
+	display: inline-flex;
+	align-items: center;
+    margin-top: 20px;
+}
+.social_media_mn a {
+	color: #fff;
+    text-decoration: none;
+    margin: 0px 20px 0 0;
+    padding: 14px;
+    background: red;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+
+
+.enner_timetable_details {
+    width: 100%;
+    margin-top: 40px;
+}
+.accordion {
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.panel {
+  padding: 0 30px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.accordion_mn .panel {
+    background: none;
+}
+.accordion_mn button.accordion {
+    outline: none;
+    background: none !important;
+    color: #fff !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #212121;
+    margin-bottom: 15px;
+    padding: 0;
+}
+.accordion_mn button.accordion span {
+	text-align: center;
+	margin-left: 5px;
+}
+.accordion_mn button.accordion span.acc_des_span_mn {
+    width: 30%;
+    height: 75px;
+    padding: 15px;
+    border-right: 1px solid #212121;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.accordion_mn button.accordion span.acc_plus_span_mn {
+    padding: 15px;
+    font-size: 30px;
+    width: 10%;	
+}
+.accordion_mn button.accordion.active span.acc_des_span_mn {
+    color: #fe0102;
+}
+.accordion_mn button.accordion.active span.acc_des_span_mn span{
+    color: #fff !important;	
+}
+
+.timetable_box_1 {
+    background: #131313;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+.timetable_img {
+    width: 100px;
+    margin-bottom: 45px;
+    display: inline-block;
+}
+.timetable_box_1 h2 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+}
+.timetable_box_1 p {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+}
+.timetable_scheduled {
+    margin: 35px 0;
+}
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+	display: block;
+}
+.timetable_details {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.right_arrow_mn {
+    height: 40px;
+    width: 40px;
+    background: #FE0102;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+.timetable_scheduled button.owl-prev , .timetable_scheduled button.owl-next{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 40px !important;
+	height: 36px;
+	width: 36px;
+	background: #ED1B23 !important;
+	border-radius: 50px !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	cursor: pointer;
+	outline: none;
+}
+.timetable_scheduled button.owl-prev:before, .timetable_scheduled button.owl-next:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -7px;
+	transform: translateY(-50%);
+	font-size: 40px !important;
+	height: 50px;
+	width: 50px;
+	background: #ED1B23 !important;
+	border-radius: 50px !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	cursor: pointer;
+	outline: none;
+	z-index: -1;
+	opacity: 50%;
+}
+.timetable_scheduled button.owl-prev span, .timetable_scheduled button.owl-next span {
+	height: 68px;
+	color: #fff;
+	position: relative;
+}
+.timetable_scheduled button.owl-prev {
+	left: -25px;
+}
+.timetable_scheduled button.owl-next {
+	right: -25px;
+}
